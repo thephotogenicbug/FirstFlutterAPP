@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-void main() {
+// whenever we have a single line of code we can convert that into fat arrow
+void main() =>
   runApp(MyApp());
-}
+
 
 // Stateless widget do not change there position on there screen once the app is running
 class MyApp extends StatelessWidget {
